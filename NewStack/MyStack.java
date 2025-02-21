@@ -1,3 +1,4 @@
+package NewStack;
 import java.util.*;
 class MyStack{
     public static void main(String[] args) {

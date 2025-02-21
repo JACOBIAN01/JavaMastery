@@ -5,7 +5,6 @@ import java.util.Stack;
 
 public class Lesson2 {
 
-
     static  boolean check(int x[] , int y[],int n){
         Stack<Integer>mystack = new Stack<>();
         int j = 0;

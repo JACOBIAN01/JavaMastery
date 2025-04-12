@@ -1,4 +1,4 @@
-# Ignore all compiled .class files
+# # Ignore all compiled .class files
 *.class
 
 # Ignore compiled files inside any folder

@@ -133,3 +133,17 @@ This roadmap will help you master **Advanced Java** for **placements** by coveri
 By following this roadmap, you’ll be **placement-ready** with expertise in **Java, DSA, Spring Boot, Microservices, and System Design**, making you a strong candidate for top companies. 🚀  
 
 Would you like a **detailed week-wise study plan**?
+
+
+DSA in Java
+Arrays, Strings, Linked Lists, Stacks, Queues
+
+Trees (BST, AVL, Heap)
+
+Graphs (DFS, BFS, Dijkstra)
+
+Recursion & Backtracking
+
+Sliding Window, Two Pointer, Binary Search
+
+Dynamic Programming

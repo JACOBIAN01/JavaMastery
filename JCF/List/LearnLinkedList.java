@@ -26,11 +26,11 @@ public class LearnLinkedList {
         System.out.println(list.size());
         System.out.println(list.contains("Deep"));
         Iterator<String> s = list.iterator();
-        while(s.hasNext()){
+
+        while (s.hasNext()) {
             String element = s.next();
             System.out.println(element);
         }
-
 
     }
 }

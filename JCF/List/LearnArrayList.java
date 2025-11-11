@@ -38,11 +38,15 @@ public class LearnArrayList {
         for(int i:list2){System.out.println(i);}
         Iterator<Integer> i = list2.iterator();
         while(i.hasNext()){
-            System.out.println(i);
+            int element = i.next();
+            System.out.println(element);
         }
 
-
-
+        Iterator<String>s = list.iterator();
+        while(s.hasNext()){
+            String element = s.next();
+            System.out.println(element);
+        }
 
     }
 }

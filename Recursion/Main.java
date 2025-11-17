@@ -1,4 +1,3 @@
-//Recursion
 
 class Main {
 
@@ -58,12 +57,31 @@ class Main {
         }
     }
 
-    public static void Pal(String s){
-        
+    public static boolean Pal(String s) {
+        char[] a = s.toCharArray();
+        StringBuilder s1 = new StringBuilder();
+
+        for (int i = a.length - 1; i >= 0; i--) {
+            s1.append(a[i]);
+        }
+
+        return s.equals(s1.toString());
+
+    }
+
+    public static void Fib(int n){
+        int a = 0;
+        int b = 1;
+        for(int i=0;i<n;i++){
+
+            System.out.println(a);
+            int temp = a + b;  // next Fibonacci number
+            a = b;
+            b = temp;
+        }
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        RevArr(arr);
+        Fib(5);
     }
 }
